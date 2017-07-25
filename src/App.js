@@ -1,15 +1,18 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Nav from './nav';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
         <div className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h2>Welcome to React</h2>
+          <Nav />
         </div>
+        <section>
+          <img src='http://res.cloudinary.com/bbchui/image/upload/v1501015551/pano_msaljt.jpg' alt="image" className="background" />
+        </section>
         <p className="App-intro">
           To get started, edit <code>src/App.js</code> and save to reload.
         </p>
@@ -19,3 +22,7 @@ class App extends Component {
 }
 
 export default App;
+
+
+// <h2>Welcome to React</h2>
+// <img src={logo} className="App-logo" alt="logo" />
