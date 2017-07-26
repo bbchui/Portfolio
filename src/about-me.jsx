@@ -7,12 +7,12 @@ class AboutMe extends React.Component {
 
   render() {
     return (
-      <section>
+      <div>
         <div>
           <h3>About Me</h3>
           <p>I am a software engineer attracted to building impactful products while providing users with an easy and intuitive experience.  </p>
         </div>
-      </section>
+      </div>
     )
   }
 

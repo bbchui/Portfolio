@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import Nav from './nav';
 import AboutMe from './about-me';
+import Projects from './projects';
 
 class App extends Component {
   render() {
@@ -11,12 +12,15 @@ class App extends Component {
         <div className="App-header">
           <Nav />
         </div>
-        <section>
+        <section className="background">
           <img src='http://res.cloudinary.com/bbchui/image/upload/v1501015551/pano_msaljt.jpg' alt="image" className="background" />
         </section>
-        <div>
+        <section>
           <AboutMe />
-        </div>
+        </section>
+        <section>
+          <Projects />
+        </section>
       </div>
     );
   }
