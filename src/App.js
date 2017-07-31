@@ -19,6 +19,7 @@ class App extends Component {
           <AboutMe />
         </section>
         <section>
+          <h2>Projects</h2>
           <Projects />
         </section>
       </div>
