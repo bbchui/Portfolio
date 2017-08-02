@@ -7,8 +7,12 @@ class Nav extends React.Component {
 
   render() {
     return (
-      <div>
-        Hi
+      <div className="nav-bar">
+        <span>Home</span>
+        <span>About Me</span>
+        <span>Skills</span>
+        <span>Projects</span>
+        <span>Contact</span>
       </div>
     )
   }

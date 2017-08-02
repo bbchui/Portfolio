@@ -13,7 +13,7 @@ class App extends Component {
           <Nav />
         </div>
         <section className="background">
-          <img src='http://res.cloudinary.com/bbchui/image/upload/v1501015551/pano_msaljt.jpg' alt="image" className="background" />
+
         </section>
         <section>
           <AboutMe />
@@ -29,6 +29,7 @@ class App extends Component {
 
 export default App;
 
+// <img src='http://res.cloudinary.com/bbchui/image/upload/v1501015551/pano_msaljt.jpg' alt="image" className="background" />
 
 // <h2>Welcome to React</h2>
 // <img src={logo} className="App-logo" alt="logo" />
