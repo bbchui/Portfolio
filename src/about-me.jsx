@@ -1,4 +1,5 @@
 import React from 'react';
+import personalpic from './personalpic.png'
 
 class AboutMe extends React.Component {
   constructor(props) {
@@ -10,12 +11,12 @@ class AboutMe extends React.Component {
       <div className="about-me">
         <div>
           <div>
-            <h3>About Me</h3>
+            <h2>About Me</h2>
             <p>
               I am a software engineer that enjoys building web applications from the back-end to the front-end, emphasizing on easy and fluid user experience. I am an avid volleyball player that also enjoys a good tabletop game here and there.
             </p>
           </div>
-          <div className="personalpic"></div>
+        <img src={personalpic} className="personalpic" />
         </div>
       </div>
     )
