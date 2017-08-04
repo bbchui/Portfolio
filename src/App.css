@@ -67,7 +67,9 @@ height: 900px;*/
 
 .project-img {
   width: 500px;
-  height: 400px;
+  height: 350px;
+  border: 1px solid #e3e3e3;
+  margin: 20px 0
 }
 
 ul {
@@ -85,4 +87,27 @@ ul > li {
 
 ul > li > div {
   width: 600px;
+}
+
+.about-me {
+  padding-top: 50px;
+  width: 1200px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.about-me > div {
+  display: flex;
+}
+
+.about-me > div > p {
+  width: 600px;
+}
+
+.personalpic {
+  background-image: url('./personalpic.png');
+
+  width: 300px;
+  height: 300px;
 }
