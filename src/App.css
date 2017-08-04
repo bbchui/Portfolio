@@ -38,7 +38,7 @@ h2 {
   justify-content: flex-end;
   height: 100%;
   align-items: center;
-  width: 1300px;
+  width: 1500px;
   margin: auto;
 }
 
@@ -104,9 +104,9 @@ ul > li > div {
 }
 
 .about-me {
-  padding-top: 100px;
+  padding-top: 50px;
   width: 1300px;
-  height: 700px;
+  height: 750px;
   margin: auto;
   display: flex;
   flex-direction: column;
@@ -115,6 +115,7 @@ ul > li > div {
 .about-me > div {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .about-me > div > div {
@@ -124,7 +125,7 @@ ul > li > div {
 .personalpic {
   /*background: url('./personalpic.png');*/
   width: 500px;
-  height: 500px;
+  height: 600px;
   /*max-width: 300px;*/
   /*margin-left: auto;*/
   /*margin-right: auto;*/

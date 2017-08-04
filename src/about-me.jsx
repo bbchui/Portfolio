@@ -9,14 +9,17 @@ class AboutMe extends React.Component {
   render() {
     return (
       <div className="about-me">
+        <h2>About Me</h2>
         <div>
-          <div>
-            <h2>About Me</h2>
-            <p>
-              I am a software engineer that enjoys building web applications from the back-end to the front-end, emphasizing on easy and fluid user experience. I am an avid volleyball player that also enjoys a good tabletop game here and there.
-            </p>
-          </div>
-        <img src={personalpic} className="personalpic" />
+            <div>
+              <p>
+                I am a software engineer that enjoys building web applications from the back-end to the front-end, emphasizing on easy and fluid user experience. As a former healthcare professional, nothing is more satisfying than providing a product that is useful and convenient to users.
+              </p>
+              <p>
+                Aside from software development, I enjoy playing volleyball, exploring, and playing tabletop games.
+              </p>
+            </div>
+            <img src={personalpic} className="personalpic" />
         </div>
       </div>
     )
