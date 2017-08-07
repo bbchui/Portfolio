@@ -15,7 +15,7 @@ class App extends Component {
         <section className="background">
 
         </section>
-        <section>
+        <section className="about">
           <AboutMe />
         </section>
         <section>

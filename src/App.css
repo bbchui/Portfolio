@@ -4,7 +4,7 @@ li {
 
 p {
   font-family: 'Roboto Condensed', sans-serif;
-  font-size: 22px;
+  font-size: 27px;
   color: #41454d;
   text-align: left;
 }
@@ -12,6 +12,11 @@ p {
 h2 {
   font-family: 'Open Sans', sans-serif;
   font-size: 48px;
+}
+
+h3 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 36px;
 }
 
 .App {
@@ -103,10 +108,14 @@ ul > li > div {
   width: 700px;
 }
 
+section.about {
+  background: #f9f9f9;
+}
+
 .about-me {
   padding-top: 50px;
   width: 1300px;
-  height: 750px;
+  height: 800px;
   margin: auto;
   display: flex;
   flex-direction: column;
