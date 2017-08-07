@@ -4,6 +4,7 @@ import './App.css';
 import Nav from './nav';
 import AboutMe from './about-me';
 import Projects from './projects';
+import Skills from './skills';
 
 class App extends Component {
   render() {
@@ -13,12 +14,14 @@ class App extends Component {
           <Nav />
         </div>
         <section className="background">
-
         </section>
         <section className="about">
           <AboutMe />
         </section>
         <section>
+          <Skills />
+        </section>
+        <section className="about">
           <h2>Projects</h2>
           <Projects />
         </section>
