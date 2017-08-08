@@ -5,6 +5,7 @@ import Nav from './nav';
 import AboutMe from './about-me';
 import Projects from './projects';
 import Skills from './skills';
+import Contact from './contact';
 
 class App extends Component {
   render() {
@@ -26,6 +27,10 @@ class App extends Component {
         <section className="project">
           <div className="title">Projects</div>
           <Projects />
+        </section>
+        <section className="contact">
+          <div className="title">Contact</div>
+          <Contact />
         </section>
       </div>
     );

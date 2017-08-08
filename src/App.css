@@ -98,12 +98,13 @@ height: 900px;*/
 }
 
 ul {
-  width: 1300px;
+  /*width: 1300px;*/
   display: flex;
   flex-direction: column;
-  margin: auto;
+  /*margin: auto;*/
   /*margin-top: .83em;*/
-  margin-bottom: 25px;
+  /*margin-bottom: 25px;*/
+  -webkit-padding-start: 0;
 }
 
 ul > li {
@@ -126,7 +127,7 @@ section.about {
 
 section.project {
   background: #f9f9f9;
-  padding-top: 1px;
+  /*padding-top: 1px;*/
 }
 
 .about-me {
