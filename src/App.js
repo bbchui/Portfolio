@@ -18,9 +18,7 @@ class App extends Component {
         <section className="about">
           <AboutMe />
         </section>
-        <section>
-          <Skills />
-        </section>
+        <Skills />
         <section className="about">
           <h2>Projects</h2>
           <Projects />

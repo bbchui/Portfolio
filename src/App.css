@@ -141,3 +141,23 @@ section.about {
   /*margin-bottom: 15px;*/
   /*border-radius: 70%;*/
 }
+
+.skills {
+  display: flex;
+  width: 1300px;
+  height: 800px;
+  margin: auto;
+  flex-wrap: wrap;
+}
+
+/*i {
+  font-size: 10em;
+}*/
+
+.icons {
+  display: flex;
+  flex-direction: column;
+  margin: 15px;
+  align-items: center;
+  font-size: 10em;
+}
