@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
 import Nav from './nav';
 import AboutMe from './about-me';
@@ -16,6 +16,7 @@ class App extends Component {
         <section className="background">
         </section>
         <section className="about">
+          <div className="title">About Me</div>
           <AboutMe />
         </section>
         <section className="skills-section">
