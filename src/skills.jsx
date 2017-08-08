@@ -25,6 +25,10 @@ class Skills extends React.Component {
           <p>Rails</p>
         </div>
         <div className="icons">
+          <i className="devicon-python-plain colored"></i>
+          <p>Python</p>
+        </div>
+        <div className="icons">
           <i className="devicon-postgresql-plain colored"></i>
           <p>PostgreSQL</p>
         </div>
@@ -51,10 +55,6 @@ class Skills extends React.Component {
         <div className="icons">
           <i className="devicon-sass-original colored"></i>
           <p>Sass</p>
-        </div>
-        <div className="icons">
-          <i className="devicon-bootstrap-plain colored"></i>
-          <p>Bootstrap</p>
         </div>
       </section>
     )

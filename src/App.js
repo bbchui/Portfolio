@@ -22,7 +22,7 @@ class App extends Component {
           <h2>Skills</h2>
           <Skills />
         </section>
-        <section className="about">
+        <section className="project">
           <h2>Projects</h2>
           <Projects />
         </section>

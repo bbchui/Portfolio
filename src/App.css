@@ -110,10 +110,16 @@ ul > li > div {
 
 section.about {
   background: #f9f9f9;
+  /*padding-top: 50px;*/
+}
+
+section.project {
+  background: #f9f9f9;
+  padding-top: 1px;
 }
 
 .about-me {
-  padding-top: 50px;
+  /*padding-top: 50px;*/
   width: 1300px;
   height: 800px;
   margin: auto;
@@ -145,10 +151,10 @@ section.about {
 .skills {
   display: flex;
   width: 1300px;
-  height: 800px;
+  /*height: 800px;*/
   margin: auto;
   flex-wrap: wrap;
-  margin-top: 50px;
+  /*margin-top: 50px;*/
   justify-content: space-between;
 }
 
