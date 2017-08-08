@@ -36,11 +36,12 @@ h3 {
 
 .App-header {
   position: fixed;
-  background-color: #222;
+  background-color: #191919;
+  /*opacity: 0.9;*/
   width: 100%;
   height: 50px;
   padding: 20px;
-  color: white;
+  /*color: #FFFFFF;*/
 
 }
 
@@ -49,12 +50,14 @@ h3 {
   justify-content: flex-end;
   height: 100%;
   align-items: center;
-  width: 1500px;
+  width: 1300px;
   margin: auto;
 }
 
 .nav-bar > span {
-  padding: 0 20px
+  padding: 0 20px;
+  color: #FFFFFF;
+
 }
 
 .App-intro {
@@ -118,7 +121,7 @@ ul > li > div {
 }
 
 section.about {
-  background: #f9f9f9;
+  background: #DFE2DB;
   height: 850px;
   /*padding-top: 50px;*/
   display: flex;
@@ -126,7 +129,7 @@ section.about {
 }
 
 section.project {
-  background: #f9f9f9;
+  background: #DFE2DB;
   /*padding-top: 1px;*/
 }
 
@@ -200,4 +203,38 @@ section.project {
   margin: auto;
   display: flex;
   flex-direction: column;
+}
+
+.contact {
+  width: 1300px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  height: 800px;
+}
+
+form {
+  background: #DFE2DB;
+  display: flex;
+  width: 700px;
+  height: 400px;
+  margin: auto;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  /*justify-content: center;*/
+}
+
+input {
+  width: 500px;
+  font-size: 22px;
+  height: 1.5em;
+  padding: 0 8px;
+}
+
+textarea {
+  height: 300px;
+  width: 500px;
+  padding: 0 8px;
+  font-size: 22px;
 }

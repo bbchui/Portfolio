@@ -24,8 +24,12 @@ class Contact extends React.Component {
             email: this.state.email,
             message: this.state.message},
       dataType: "json"
-      });
+      }).then(this.clearForm())
     }
+  }
+
+  clearForm() {
+    this.setState({name: "", email: "", message: ""})
   }
 
   handleError() {
@@ -44,11 +48,11 @@ class Contact extends React.Component {
 
   render() {
     return(
-      <div>
+      <div className="contacts-section">
         <form>
-          <input type="text" onChange={this.update('name')}/>
-          <input type="text" onChange={this.update('email')}/>
-          <input type="text" onChange={this.update('message')}/>
+          <input type="text" onChange={this.update('name')} value={this.state.name} placeholder="Name"/>
+          <input type="text" onChange={this.update('email')} value={this.state.email} placeholder="Email"/>
+          <textarea type="text" onChange={this.update('message')} value={this.state.message} placeholder="Message"/>
         </form>
         <button onClick={this.handleSubmit}>send</button>
         {this.handleError()}
