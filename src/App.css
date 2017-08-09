@@ -352,22 +352,12 @@ button.send:hover {
   display: flex;
 }
 
-/*.social-icons {
-  width: 1300px;
-  margin: auto;
-  display: flex;
-  flex-direction: row;
-  font-size: 50px;
-}*/
-
 .social-icons {
-    margin: 20px 0px 0px;
-    margin: auto;
     display: flex;
-    width: 1300px;
+    width: 50%;
+    min-width: 900px;
     margin: auto;
     flex-direction: row;
-
 }
 
 .social-icons a {
@@ -378,6 +368,10 @@ button.send:hover {
     transition: all 0.3s ease 0s;
 }
 
+.social-icons li {
+  justify-content: center;
+}
+
 .social-icons li a {
     text-transform: uppercase;
     color: #fff;
@@ -385,7 +379,7 @@ button.send:hover {
 }
 
 .social-icons a:hover {
-    color: #777777;
+    color: #dadada;
 }
 
 .fa-facebook{
