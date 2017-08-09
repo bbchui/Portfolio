@@ -33,6 +33,12 @@ class Nav extends React.Component {
         left: 0,
         behavior: 'smooth'
       });
+    } else if (e === 'Contact') {
+      window.scrollTo({
+        top: 3910,
+        left: 0,
+        behavior: 'smooth'
+      });
     }
   }
 
@@ -43,7 +49,7 @@ class Nav extends React.Component {
         <span onClick={() => this.handleClick('About')}>About Me</span>
         <span onClick={() => this.handleClick('Skills')}>Skills</span>
         <span onClick={() => this.handleClick('Projects')}>Projects</span>
-        <span>Contact</span>
+        <span onClick={() => this.handleClick('Contact')}>Contact</span>
       </div>
     )
   }

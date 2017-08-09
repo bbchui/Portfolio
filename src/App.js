@@ -6,6 +6,7 @@ import AboutMe from './about-me';
 import Projects from './projects';
 import Skills from './skills';
 import Contact from './contact';
+import Footer from './footer';
 
 class App extends Component {
   render() {
@@ -15,6 +16,11 @@ class App extends Component {
           <Nav />
         </div>
         <section className="background">
+          <div>
+            <div className="hi">Hey! I'm</div>
+            <div className="name">Brandon Chui</div>
+            <div className="hi">Software Engineer</div>
+          </div>
         </section>
         <section className="about">
           <div className="title">About Me</div>
@@ -31,6 +37,9 @@ class App extends Component {
         <section className="contact">
           <div className="title">Contact</div>
           <Contact />
+        </section>
+        <section>
+          <Footer />
         </section>
       </div>
     );
