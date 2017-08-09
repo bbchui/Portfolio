@@ -19,25 +19,25 @@ class Nav extends React.Component {
       });
     } else if (e === 'About') {
       window.scrollTo({
-        top: h - 70,
+        top: h - 80,
         left: 0,
         behavior: 'smooth'
       });
     } else if (e === 'Skills') {
       window.scrollTo({
-        top: 1760,
+        top: h + 650 - 80,
         left: 0,
         behavior: 'smooth'
       });
     } else if (e === 'Projects') {
       window.scrollTo({
-        top: 2610,
+        top: h + 1300 - 80,
         left: 0,
         behavior: 'smooth'
       });
     } else if (e === 'Contact') {
       window.scrollTo({
-        top: 3950,
+        top: h + 2600 - 80,
         left: 0,
         behavior: 'smooth'
       });
