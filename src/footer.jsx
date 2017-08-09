@@ -1,12 +1,8 @@
 import React from 'react';
-import FontAwesome from 'react-fontawesome';
 import '../node_modules/font-awesome/css/font-awesome.min.css';
 
 
 class Footer extends React.Component {
-  constructor(props) {
-    super(props)
-  }
 
   render() {
     return(

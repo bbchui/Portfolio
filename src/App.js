@@ -15,26 +15,26 @@ class App extends Component {
         <div className="App-header">
           <Nav />
         </div>
-        <section className="background" name="home">
+        <section className="background" id="home">
           <div>
             <div className="hi">Hey! I'm</div>
             <div className="name">Brandon Chui</div>
             <div className="hi">Software Engineer</div>
           </div>
         </section>
-        <section className="about" name="about">
+        <section className="about" id="about">
           <div className="title">About Me</div>
           <AboutMe />
         </section>
-        <section className="skills-section" name="skills">
+        <section className="skills-section" id="skills">
           <div className="title">Skills</div>
           <Skills />
         </section>
-        <section className="project" name="projects">
+        <section className="project" id="projects">
           <div className="title">Projects</div>
           <Projects />
         </section>
-        <section className="contact" name="contact">
+        <section className="contact" id="contact">
           <div className="title">Contact</div>
           <Contact />
         </section>

@@ -2,9 +2,6 @@ import React from 'react';
 import personalpic from './personalpic.png'
 
 class AboutMe extends React.Component {
-  constructor(props) {
-    super(props)
-  }
 
   render() {
     return (
@@ -17,7 +14,7 @@ class AboutMe extends React.Component {
             Aside from software development, I enjoy playing volleyball, exploring, and playing tabletop games.
           </p>
         </div>
-        <img src={personalpic} className="personalpic" />
+        <img src={personalpic} className="personalpic" alt="loading" />
       </div>
     )
   }

@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 require('smoothscroll-polyfill').polyfill();
 
 
@@ -9,6 +9,8 @@ class Nav extends React.Component {
   }
 
   handleClick(e) {
+    let h = window.innerHeight;
+    console.log(h);
     if (e === 'Home') {
       window.scrollTo({
         top: 0,
@@ -17,7 +19,7 @@ class Nav extends React.Component {
       });
     } else if (e === 'About') {
       window.scrollTo({
-        top: 920,
+        top: h - 70,
         left: 0,
         behavior: 'smooth'
       });
