@@ -3,6 +3,21 @@
   src: url('./fonts/bebas_neue/BebasNeue Book.otf')
 }
 
+@font-face {
+  font-family: "Bebas Neue Light";
+  src: url('./fonts/bebas_neue/BebasNeue Light.otf')
+}
+
+@font-face {
+  font-family: "Bebas Neue Bold";
+  src: url('./fonts/bebas_neue/BebasNeue Bold.otf')
+}
+
+@font-face {
+  font-family: "Junction Light";
+  src: url('./fonts/junction/Junction-light.otf')
+}
+
 li {
   list-style: none;
 }
@@ -20,13 +35,16 @@ h2 {
 }
 
 .title {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 48px;
+  /*font-family: 'Open Sans', sans-serif;*/
+  font-family: "Bebas Neue Book";
+
+  font-size: 96px;
   /*margin-top: .83em;*/
   padding-top: 30px;
 }
 h3 {
   font-family: 'Open Sans', sans-serif;
+  /*font-family: 'Junction Light';*/
   font-size: 36px;
 }
 
@@ -63,6 +81,7 @@ h3 {
   margin: 0 20px;
   color: #FFFFFF;
   cursor: pointer;
+  font-size: 18px;
 }
 
 .App-intro {
@@ -97,8 +116,8 @@ height: 900px;*/
   min-width: 1600px;
   height: 1000px;
   color: white;
-  font-family: "Bebas Neue Book";
-  font-size: 200px;
+  font-family: "Bebas Neue Bold";
+  font-size: 175px;
   text-align: left;
 }
 
@@ -110,6 +129,7 @@ section.background > div {
 }
 
 .hi {
+  font-family: "Bebas Neue Light";
   font-size: 100px;
 }
 

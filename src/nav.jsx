@@ -35,7 +35,7 @@ class Nav extends React.Component {
       });
     } else if (e === 'Contact') {
       window.scrollTo({
-        top: 3910,
+        top: 3950,
         left: 0,
         behavior: 'smooth'
       });
