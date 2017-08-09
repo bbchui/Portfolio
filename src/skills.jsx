@@ -33,8 +33,8 @@ class Skills extends React.Component {
           <p>PostgreSQL</p>
         </div>
         <div className="icons">
-          <i className="devicon-mysql-plain-wordmark colored"></i>
-          <p>MySQL</p>
+          <i className="devicon-d3js-plain colored"></i>
+          <p>D3.Js</p>
         </div>
         <div className="icons">
           <i className="devicon-git-plain colored"></i>
