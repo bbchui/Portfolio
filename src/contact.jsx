@@ -54,7 +54,7 @@ class Contact extends React.Component {
           <input type="text" onChange={this.update('email')} value={this.state.email} placeholder="Email"/>
           <textarea type="text" onChange={this.update('message')} value={this.state.message} placeholder="Message"/>
         </form>
-        <button onClick={this.handleSubmit}>send</button>
+        <button className="send" onClick={this.handleSubmit}>Send</button>
         {this.handleError()}
       </div>
     )

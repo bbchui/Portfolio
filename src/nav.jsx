@@ -29,7 +29,7 @@ class Nav extends React.Component {
       });
     } else if (e === 'Projects') {
       window.scrollTo({
-        top: 2560,
+        top: 2610,
         left: 0,
         behavior: 'smooth'
       });
