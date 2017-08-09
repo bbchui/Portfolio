@@ -1,4 +1,5 @@
 {
+  "homepage": "https://bbchui.github.io/Portfolio/",
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
@@ -20,7 +21,6 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject",
-    "homepage": "https://bbchui.github.io/Portfolio/"
+    "eject": "react-scripts eject"
   }
 }
