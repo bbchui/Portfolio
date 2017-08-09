@@ -349,4 +349,84 @@ button.send:hover {
   width: 100%;
   height: 80px;
   padding: 20px;
+  display: flex;
+}
+
+/*.social-icons {
+  width: 1300px;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  font-size: 50px;
+}*/
+
+.social-icons {
+    margin: 20px 0px 0px;
+    margin: auto;
+    display: flex;
+    width: 1300px;
+    margin: auto;
+    flex-direction: row;
+
+}
+
+.social-icons a {
+    color: #fff;
+    font-size: 40px;
+    margin: 0 3px;
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+
+.social-icons li a {
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 700;
+}
+
+.social-icons a:hover {
+    color: #777777;
+}
+
+.fa-facebook{
+    background-color: #3b5998;
+    border-radius: 32px;
+    height: 40px;
+    padding: 13px;
+    text-align: center;
+    width: 40px;
+}
+.fa-angellist{
+    background-color: #1DA1F2;
+    border-radius: 32px;
+    height: 40px;
+    padding: 13px;
+    text-align: center;
+    width: 40px;
+}
+.fa-envelope-o{
+    background-color: #dc4b3e;
+    border-radius: 32px;
+    height: 40px;
+    padding: 13px;
+    text-align: center;
+    width: 40px;
+}
+
+.fa-linkedin{
+    background-color: #0077b5;
+    border-radius: 32px;
+    height: 40px;
+    padding: 13px;
+    text-align: center;
+    width: 40px;
+
+}
+.fa-github{
+    background-color: #394149;
+    border-radius: 32px;
+    height: 40px;
+    padding: 13px;
+    text-align: center;
+    width: 40px;
 }
