@@ -14,7 +14,7 @@ class AboutMe extends React.Component {
             Aside from software development, I enjoy playing volleyball, exploring, and playing tabletop games.
           </p>
         </div>
-        <img src={personalpic} className="personalpic" alt="loading" />
+        <img src='http://res.cloudinary.com/bbchui/image/upload/v1499371429/rydnkh53ixqey50itith.jpg' className="personalpic" alt="loading" />
       </div>
     )
   }
