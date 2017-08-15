@@ -108,7 +108,7 @@ section.background {
   display: flex;
   justify-content: flex-start;
   /*background: url('./pano3.png') no-repeat center center fixed;*/
-  background: url('./sf.jpg') no-repeat fixed 50% 50% / cover;
+  background: url('./sf5.jpg') no-repeat fixed 50% 50% / cover;
   -webkit-background-size: cover;
   /*background-image: url('./sf.jpg');
   background-position: center;
