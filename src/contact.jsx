@@ -49,13 +49,19 @@ class Contact extends React.Component {
   render() {
     return(
       <div className="contacts-section">
-        <form>
-          <input type="text" onChange={this.update('name')} value={this.state.name} placeholder="Name"/>
-          <input type="text" onChange={this.update('email')} value={this.state.email} placeholder="Email"/>
-          <textarea type="text" onChange={this.update('message')} value={this.state.message} placeholder="Message"/>
-        </form>
-        <button className="send" onClick={this.handleSubmit}>Send</button>
-        {this.handleError()}
+        <div className="contact-border">
+          <form>
+            <input type="text" onChange={this.update('name')} value={this.state.name} placeholder="Name"/>
+            <input type="text" onChange={this.update('email')} value={this.state.email} placeholder="Email"/>
+            <textarea type="text" onChange={this.update('message')} value={this.state.message} placeholder="Message"/>
+            <button className="send" onClick={this.handleSubmit}>Send</button>
+            {this.handleError()}
+          </form>
+          <div className="contact-info">
+            <p>Email: bbchui325@gmail.com</p>
+            <p>Phone: (415) 823-6303</p>
+          </div>
+        </div>
       </div>
     )
   }
