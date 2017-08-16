@@ -377,22 +377,22 @@ button.send:hover {
   background-color: #2B2B2B;
   /*opacity: 0.9;*/
   width: 100%;
-  height: 80px;
+  height: 60px;
   padding: 20px 0;
   display: flex;
 }
 
 .social-icons {
     display: flex;
-    width: 50%;
-    min-width: 900px;
+    width: 25%;
+    min-width: 600px;
     margin: auto;
     flex-direction: row;
 }
 
 .social-icons a {
     color: #fff;
-    font-size: 40px;
+    font-size: 30px;
     margin: 0 3px;
     -webkit-transition: all 0.3s ease 0s;
     transition: all 0.3s ease 0s;
@@ -415,42 +415,42 @@ button.send:hover {
 .fa-facebook{
     background-color: #3b5998;
     border-radius: 32px;
-    height: 40px;
+    height: 30px;
     padding: 13px;
     text-align: center;
-    width: 40px;
+    width: 30px;
 }
 .fa-angellist{
     background-color: #1DA1F2;
     border-radius: 32px;
-    height: 40px;
+    height: 30px;
     padding: 13px;
     text-align: center;
-    width: 40px;
+    width: 30px;
 }
 .fa-envelope-o{
     background-color: #dc4b3e;
     border-radius: 32px;
-    height: 40px;
+    height: 30px;
     padding: 13px;
     text-align: center;
-    width: 40px;
+    width: 30px;
 }
 
 .fa-linkedin{
     background-color: #0077b5;
     border-radius: 32px;
-    height: 40px;
+    height: 30px;
     padding: 13px;
     text-align: center;
-    width: 40px;
+    width: 30px;
 
 }
 .fa-github{
     background-color: #394149;
     border-radius: 32px;
-    height: 40px;
+    height: 30px;
     padding: 13px;
     text-align: center;
-    width: 40px;
+    width: 30px;
 }
