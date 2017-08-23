@@ -458,4 +458,36 @@ button.send:hover {
 .submit {
   font-family: 'Roboto Condensed', sans-serif;
   font-size: 28px;
+  /*background: #2B2B2B;*/
+  color: white;
+}
+
+.modal-icons {
+    display: flex;
+    width: 25%;
+    min-width: 600px;
+    margin: auto;
+    flex-direction: row;
+}
+
+.modal-icons a {
+    color: #fff;
+    font-size: 30px;
+    margin: 0 3px;
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+
+.modal-icons li {
+  justify-content: center;
+}
+
+.modal-icons li a {
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 700;
+}
+
+.modal-icons a:hover {
+    color: #dadada;
 }
