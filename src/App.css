@@ -460,14 +460,16 @@ button.send:hover {
   font-size: 28px;
   /*background: #2B2B2B;*/
   color: white;
+  text-align: center;
 }
+
 
 .modal-icons {
     display: flex;
-    width: 25%;
-    min-width: 600px;
+    width: 400px;
     margin: auto;
     flex-direction: row;
+    padding-top: 20px;
 }
 
 .modal-icons a {

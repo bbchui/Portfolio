@@ -110,7 +110,7 @@ class Contact extends React.Component {
             onRequestClose={this.onModalClose}
             onAfterOpen={this.onTransition}
             >
-            <div>{this.handleError()}</div>
+            <div className="handle-error">{this.handleError()}</div>
             <div>
               <ul className="modal-icons">
                 <li><a href="https://www.github.com/bbchui" target="_blank"><i className="fa fa-github" aria-hidden="true"></i></a></li>
