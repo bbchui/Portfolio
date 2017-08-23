@@ -454,3 +454,8 @@ button.send:hover {
     text-align: center;
     width: 30px;
 }
+
+.submit {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 28px;
+}

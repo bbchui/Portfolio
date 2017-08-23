@@ -1,19 +1,44 @@
 import React from 'react';
 // import Mailto from 'react-mailto';
 import axios from 'axios';
+import ModalStyle from './modal_style';
+import Modal from 'react-modal';
 
 class Contact extends React.Component {
   constructor(props) {
     super(props);
-    this.state = {name: "", email: "", message: "", error: 0}
+    this.state = {name: "",
+                  email: "",
+                  message: "",
+                  error: 0,
+                  modalOpen: false};
+    this.onModalOpen = this.onModalOpen.bind(this);
+    this.onModalClose = this.onModalClose.bind(this);
+    this.onTransition = this.onTransition.bind(this);
     this.update = this.update.bind(this);
     this.handleSubmit = this.handleSubmit.bind(this);
     this.handleError = this.handleError.bind(this);
     this.invalidEmail = this.invalidEmail.bind(this);
   }
 
+  onModalOpen(e) {
+    e.preventDefault()
+    this.setState({modalOpen: true});
+  }
+
+  onModalClose() {
+    this.setState({modalOpen: false});
+    ModalStyle.content.opacity = 0;
+  }
+
+  onTransition() {
+    ModalStyle.content.opacity = 100;
+  }
+
+
   handleSubmit(e) {
     e.preventDefault();
+    this.setState({modalOpen: true});
     if (!this.state.name || !this.state.email || !this.state.message) {
       this.setState({error: 1})
     } else if (this.invalidEmail(this.state.email)) {
@@ -42,9 +67,9 @@ class Contact extends React.Component {
     } else {
       arr = email.split("@")
     }
-    if (arr.length != 2) {
+    if (arr.length !== 2) {
       return true;
-    } else if (arr[1].split(".") != 2) {
+    } else if (arr[1].split(".").length !== 2) {
       return true;
     }
     return false;
@@ -53,11 +78,15 @@ class Contact extends React.Component {
   handleError() {
     if (this.state.error === 1) {
       return(
-        <div>Please complete the form!</div>
+        <div className="submit">Please complete the form!</div>
       );
     } else if (this.state.error === 2) {
       return(
-        <div>Please enter a valid e-mail</div>
+        <div className="submit">Please enter a valid e-mail</div>
+      )
+    } else {
+      return(
+        <div className="submit">Thank You! I will get back to you as soon as possible!</div>
       )
     }
   }
@@ -72,12 +101,24 @@ class Contact extends React.Component {
     return(
       <div className="contacts-section">
         <div className="contact-border">
+
+
+          <Modal
+            contentLabel="Modal"
+            style={ModalStyle}
+            isOpen={this.state.modalOpen}
+            onRequestClose={this.onModalClose}
+            onAfterOpen={this.onTransition}
+            >
+            <div>{this.handleError()}</div>
+          </Modal>
+
+
           <form>
             <input type="text" onChange={this.update('name')} value={this.state.name} placeholder="Name"/>
             <input type="text" onChange={this.update('email')} value={this.state.email} placeholder="Email"/>
             <textarea type="text" onChange={this.update('message')} value={this.state.message} placeholder="Message"/>
             <button className="send" onClick={this.handleSubmit}>Send</button>
-            {this.handleError()}
           </form>
           <div className="contact-info">
             <p>Email: bbchui325@gmail.com</p>
@@ -90,3 +131,6 @@ class Contact extends React.Component {
 }
 
 export default Contact;
+
+
+// {this.handleError()}
