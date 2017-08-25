@@ -1,4 +1,5 @@
 import React from 'react';
+import resume from './resume.pdf';
 import personalpic from './personalpic.png'
 
 class AboutMe extends React.Component {
@@ -13,6 +14,7 @@ class AboutMe extends React.Component {
           <p>
             Aside from software development, I enjoy playing volleyball, exploring, and playing tabletop games.
           </p>
+          <a href={resume} class="about-me-resume" target="_blank">Resume</a>
         </div>
         <img src='http://res.cloudinary.com/bbchui/image/upload/v1499371429/rydnkh53ixqey50itith.jpg' className="personalpic" alt="loading" />
       </div>

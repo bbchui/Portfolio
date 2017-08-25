@@ -10,7 +10,6 @@ class Nav extends React.Component {
 
   handleClick(e) {
     let h = window.innerHeight;
-    console.log(h);
     if (e === 'Home') {
       window.scrollTo({
         top: 0,
