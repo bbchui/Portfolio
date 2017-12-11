@@ -218,6 +218,12 @@ section.project {
   /*border-radius: 70%;*/
 }
 
+a.about-me-resume {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 24px;
+  color: #41454d;
+}
+
 .skills-section {
   height: 650px;
   display: flex;

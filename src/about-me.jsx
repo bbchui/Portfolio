@@ -14,7 +14,7 @@ class AboutMe extends React.Component {
           <p>
             Aside from software development, I enjoy playing volleyball, exploring, and playing tabletop games.
           </p>
-          <a href={resume} class="about-me-resume" target="_blank">Resume</a>
+          <a href={resume} className="about-me-resume" target="_blank">Resume</a>
         </div>
         <img src='http://res.cloudinary.com/bbchui/image/upload/v1512971948/IMG_3301_mmir1h.jpg' className="personalpic" alt="loading" />
       </div>
